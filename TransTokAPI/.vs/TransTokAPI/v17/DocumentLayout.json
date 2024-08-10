@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A48EC460-D427-4BF1-94D6-88E91F1E6B24}|TransTokAPI\\TransTokAPI.csproj|c:\\users\\alex1\\onedrive\\escritorio\\repos\\realtranslate\\transcripttiktokapi\\transtokapi\\transtokapi\\services\\tiktoktranscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48EC460-D427-4BF1-94D6-88E91F1E6B24}|TransTokAPI\\TransTokAPI.csproj|solutionrelative:transtokapi\\services\\tiktoktranscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48EC460-D427-4BF1-94D6-88E91F1E6B24}|TransTokAPI\\TransTokAPI.csproj|c:\\users\\alex1\\onedrive\\escritorio\\repos\\realtranslate\\transcripttiktokapi\\transtokapi\\transtokapi\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A48EC460-D427-4BF1-94D6-88E91F1E6B24}|TransTokAPI\\TransTokAPI.csproj|solutionrelative:transtokapi\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48EC460-D427-4BF1-94D6-88E91F1E6B24}|TransTokAPI\\TransTokAPI.csproj|c:\\users\\alex1\\onedrive\\escritorio\\repos\\realtranslate\\transcripttiktokapi\\transtokapi\\transtokapi\\components\\pages\\principal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A48EC460-D427-4BF1-94D6-88E91F1E6B24}|TransTokAPI\\TransTokAPI.csproj|solutionrelative:transtokapi\\components\\pages\\principal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48EC460-D427-4BF1-94D6-88E91F1E6B24}|TransTokAPI\\TransTokAPI.csproj|c:\\users\\alex1\\onedrive\\escritorio\\repos\\realtranslate\\transcripttiktokapi\\transtokapi\\transtokapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48EC460-D427-4BF1-94D6-88E91F1E6B24}|TransTokAPI\\TransTokAPI.csproj|solutionrelative:transtokapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\TransTokAPI\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "TransTokAPI\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\TransTokAPI\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "TransTokAPI\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T02:55:03.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Principal.razor",
+              "DocumentMoniker": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\TransTokAPI\\Components\\Pages\\Principal.razor",
+              "RelativeDocumentMoniker": "TransTokAPI\\Components\\Pages\\Principal.razor",
+              "ToolTip": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\TransTokAPI\\Components\\Pages\\Principal.razor",
+              "RelativeToolTip": "TransTokAPI\\Components\\Pages\\Principal.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-10T02:48:02.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TikTokTranscriber.cs",
+              "DocumentMoniker": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\TransTokAPI\\Services\\TikTokTranscriber.cs",
+              "RelativeDocumentMoniker": "TransTokAPI\\Services\\TikTokTranscriber.cs",
+              "ToolTip": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\TransTokAPI\\Services\\TikTokTranscriber.cs",
+              "RelativeToolTip": "TransTokAPI\\Services\\TikTokTranscriber.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBUAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T02:43:21.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\TransTokAPI\\Program.cs",
+              "RelativeDocumentMoniker": "TransTokAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\alex1\\OneDrive\\Escritorio\\Repos\\RealTranslate\\TranscriptTikTokAPI\\TransTokAPI\\TransTokAPI\\Program.cs",
+              "RelativeToolTip": "TransTokAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T02:31:55.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

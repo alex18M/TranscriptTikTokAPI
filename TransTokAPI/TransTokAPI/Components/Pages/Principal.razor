@@ -1,0 +1,24 @@
+﻿@page "/transcriber"
+@using TransTokAPI.Services
+@inject TikTokTranscriber TikTokService
+
+<h3>TikTok Transcriber</h3>
+
+<input @bind="videoUrl" placeholder="Enter TikTok video URL" />
+<button @onclick="TranscribeAudio">Transcribe</button>
+
+@if (!string.IsNullOrEmpty(transcription))
+{
+    <p><strong>Transcription:</strong></p>
+    <p>@transcription</p>
+}
+
+@code {
+    private string videoUrl;
+    private string transcription;
+
+    private async Task TranscribeAudio()
+    {
+        transcription = await TikTokService.TranscribeTikTokAudio(videoUrl);
+    }
+}
