@@ -7,11 +7,15 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-// Registrar HttpClient para que esté disponible para inyección
-builder.Services.AddHttpClient();
+// Registrar el servicio TikTokTranscriber con HttpClient
+builder.Services.AddHttpClient<TikTokTranscriber>();
+
 
 // Registrar el servicio TikTokTranscriber
 builder.Services.AddScoped<TikTokTranscriber>();
+builder.Services.AddHttpClient<TikTokTranscriber>();
+
+
 
 var app = builder.Build();
 

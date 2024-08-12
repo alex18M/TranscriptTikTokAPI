@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TransTokAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0865fd9b90bb8c76128e95940ccc7db3c06cac1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb1f084337a782ba8a61ed3926412d195cfe9d2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TransTokAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TransTokAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

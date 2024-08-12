@@ -1,24 +1,42 @@
-﻿@page "/transcriber"
+﻿@page "/Principal"
 @using TransTokAPI.Services
-@inject TikTokTranscriber TikTokService
+@inject TikTokTranscriber Transcriber
 
-<h3>TikTok Transcriber</h3>
+<h3>Transcripción de TikTok</h3>
 
-<input @bind="videoUrl" placeholder="Enter TikTok video URL" />
-<button @onclick="TranscribeAudio">Transcribe</button>
+<input @bind="videoUrl" placeholder="Introduce la URL del video de TikTok" />
+<button @onclick="TranscribeAudio">Transcribir</button>
 
-@if (!string.IsNullOrEmpty(transcription))
+
+@if (!string.IsNullOrEmpty(transcriptionResult))
 {
-    <p><strong>Transcription:</strong></p>
-    <p>@transcription</p>
+    <p><strong>Transcripción:</strong></p>
+    <p>@transcriptionResult</p>
 }
 
 @code {
     private string videoUrl;
-    private string transcription;
+    private string transcriptionResult;
 
     private async Task TranscribeAudio()
     {
-        transcription = await TikTokService.TranscribeTikTokAudio(videoUrl);
+        Console.WriteLine("Método TranscribeAudio ejecutado.");
+
+        if (string.IsNullOrWhiteSpace(videoUrl))
+        {
+            transcriptionResult = "Por favor, introduce una URL válida.";
+            return;
+        }
+
+        try
+        {
+            transcriptionResult = "Transcribiendo...";
+            transcriptionResult = await Transcriber.TranscribeTikTokAudio(videoUrl);
+        }
+        catch (Exception ex)
+        {
+            transcriptionResult = $"Error al transcribir: {ex.Message}";
+        }
     }
+
 }
